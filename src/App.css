@@ -5,6 +5,14 @@
   text-align: center;
 }
 
+/* ItemList  */
+
+.is-loading{
+  font-family: monospace, 'Courier New', Courier;
+  font-size: 1.5rem;
+  color: yellow;
+}
+
 /* ITEM Styles */
 .item__container{
   border-bottom: 1px solid rgba(128, 128, 128, .3);
@@ -142,6 +150,17 @@
   hyphens:auto;
   margin-bottom: 1.5rem;
 }
+
+/* Error component */
+.error-icon{
+  font-size: 4rem;
+  color: red;
+}
+.error__container p{
+  font-family: monospace, 'Courier New', Courier;
+  font-size: 1.2rem;
+}
+
 /* @media (prefers-reduced-motion: no-preference) {
  
 } */

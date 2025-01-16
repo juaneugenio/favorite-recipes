@@ -5,19 +5,34 @@ import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ItemList from "./components/ItemList"
 import ItemDetails from './components/ItemDetails';
+import Error from './components/Error';
 
 function App() {
   const [items, setItems] = useState([]);
+  const [error, setError] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
 
   
   useEffect(() => {
-    // Converting recipe.id to Number
-    const formattedData = data.map((recipe) => ({
-			...recipe,
-			id: Number(recipe.id),
-		}));
-		setItems(formattedData);
+    try {
+			// Converting recipe.id to Number
+			const formattedData = data.map((recipe) => ({
+				...recipe,
+				id: Number(recipe.id),
+			}));
+			setItems(formattedData);
+      setIsLoading(false)
+		} catch (err) {
+      console.log('👉 Line-24 ▶︎▶︎', err.message);
+      setError("Failed to load data.")
+      setIsLoading(false)
+    }
+    
 	}, []);
+
+  if(error){
+    return <Error errorMessage={error}/>
+  }
   
 
   return (
@@ -25,7 +40,7 @@ function App() {
 			<Router>
 				
 				<Routes>
-					<Route path="/" element={<ItemList items={items} />} />
+					<Route path="/" element={<ItemList items={items} isLoading={isLoading}/>} />
 					<Route path="/item/:id" element={<ItemDetails items={items}/>} />
 				</Routes>
 			</Router>

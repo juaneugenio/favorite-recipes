@@ -2,15 +2,15 @@
 
 import PropTypes from "prop-types";
 import { useParams } from "react-router-dom";
+import Error from "./Error";
 
 const ItemDetails = ({ items }) => {
 	// console.log("👉 Line-5 ▶︎▶︎", items);
   const {id} = useParams();
-
   const recipe = items.find(recipe => `${recipe.id}${recipe.name}` === id
   )
   if(!recipe){
-    return <p>Item not found</p>
+    return <Error errorMessage="Recipe not found"/>
   }
 	return (
 		<article className="item-details__container">
