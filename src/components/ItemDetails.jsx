@@ -2,16 +2,25 @@
 
 import PropTypes from "prop-types";
 import { useParams } from "react-router-dom";
+import { useState } from "react";
 import Error from "./Error";
 
-const ItemDetails = ({ items }) => {
+const ItemDetails = ({ items, updateFavoriteStatus }) => {
 	// console.log("👉 Line-5 ▶︎▶︎", items);
-  const {id} = useParams();
-  const recipe = items.find(recipe => `${recipe.id}${recipe.name}` === id
-  )
-  if(!recipe){
-    return <Error errorMessage="Recipe not found"/>
-  }
+	const { id } = useParams();
+	const recipe = items.find((recipe) => `${recipe.id}${recipe.name}` === id);
+
+	const [isFavorite, setIsFavorite] = useState(recipe.isFavorite);
+
+	if (!recipe) {
+		return <Error errorMessage="Recipe not found" />;
+	}
+
+	const handleFavoriteToggle = () => {
+		setIsFavorite(!isFavorite);
+		updateFavoriteStatus(recipe.id, !isFavorite);
+	};
+
 	return (
 		<article className="item-details__container">
 			<header>
@@ -33,7 +42,7 @@ const ItemDetails = ({ items }) => {
 				<p>
 					<strong>Origin:</strong> {recipe.origin}
 				</p>
-				<button>{recipe.isFavorite ? "Unmark as Favorite" : "Mark as Favorite"}</button>
+				<button onClick={handleFavoriteToggle}>{isFavorite ? "★" : "Mark as Favorite"}</button>
 			</section>
 			<section className="item-description__section">
 				<h3>Description</h3>
@@ -55,5 +64,6 @@ ItemDetails.propTypes = {
 			origin: PropTypes.string.isRequired,
 		}),
 	).isRequired,
+	updateFavoriteStatus: PropTypes.func.isRequired,
 };
 export default ItemDetails;

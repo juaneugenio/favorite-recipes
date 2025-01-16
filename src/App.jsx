@@ -30,6 +30,10 @@ function App() {
     
 	}, []);
 
+  const updateFavoriteStatus = (id, isFavorite) => {
+		setItems((prevItems) => prevItems.map((item) => (item.id === id ? { ...item, isFavorite } : item)));
+	};
+
   if(error){
     return <Error errorMessage={error}/>
   }
@@ -38,10 +42,9 @@ function App() {
   return (
 		<>
 			<Router>
-				
 				<Routes>
-					<Route path="/" element={<ItemList items={items} isLoading={isLoading}/>} />
-					<Route path="/item/:id" element={<ItemDetails items={items}/>} />
+					<Route path="/" element={<ItemList items={items} isLoading={isLoading} />} />
+					<Route path="/item/:id" element={<ItemDetails items={items} updateFavoriteStatus={updateFavoriteStatus} />} />
 				</Routes>
 			</Router>
 		</>
