@@ -22,7 +22,7 @@
 		"category": "Appetizer",
 		"origin": "Japan",
 		"id": "3",
-		"isFavorite": true,
+		"isFavorite": false,
 		"picture": "/images/californiarollmaki.jpg",
 		"description": "The California Roll is a popular type of sushi that combines Japanese techniques with Western flavors. It typically includes crab meat (or imitation crab), avocado, and cucumber wrapped in seasoned rice and seaweed (nori). Sometimes it's topped with sesame seeds or tobiko (fish roe) for added texture.\nThis roll was created in the United States as an introduction to sushi for those hesitant about raw fish. Its mild flavors and appealing presentation have made it a favorite worldwide."
 	},
@@ -40,7 +40,7 @@
 		"category": "Main Course",
 		"origin": "Thailand",
 		"id": "5",
-		"isFavorite": true,
+		"isFavorite": false,
 		"picture": "/images/padthai.jpg",
 		"description": "Pad Thai is Thailand's most famous noodle dish and a favorite among food lovers worldwide. It features stir-fried rice noodles tossed with shrimp or tofu, eggs, bean sprouts, peanuts, and a tangy tamarind-based sauce. The dish strikes a perfect balance between sweet, salty, sour, and spicy flavors.\nOften served as street food in Thailand but also found in Thai restaurants globally, Pad Thai is garnished with lime wedges and crushed peanuts for added flavor."
 	},
@@ -58,7 +58,7 @@
 		"category": "Main Course",
 		"origin": "Italy",
 		"id": "7",
-		"isFavorite": true,
+		"isFavorite": false,
 		"picture": "/images/pizzamargherita.jpg",
 		"description": "\"Pizza Margherita\" is one of Italy's most iconic dishes. This simple yet delicious pizza features a thin crust topped with tomato sauce, fresh mozzarella cheese, and basil leaves—representing the colors of the Italian flag.\nLegend has it that this pizza was created in honor of Queen Margherita of Savoy in the late 19th century. Today it remains one of the most popular choices for pizza lovers around the world."
 	},
@@ -76,7 +76,7 @@
 		"category": "Main Course",
 		"origin": "United States",
 		"id": "9",
-		"isFavorite": true,
+		"isFavorite": false,
 		"picture": "/images/hamburger.jpg",
 		"description": "The hamburger is an iconic American dish consisting of a ground beef patty served in a bun with various toppings such as lettuce, tomato, cheese, pickles, and sauces. It is often accompanied by fries or onion rings.\nWhile its exact origins are debated, the hamburger has become a global phenomenon and a symbol of fast food culture. Gourmet variations have also elevated it to fine dining menus."
 	},
@@ -94,7 +94,7 @@
 		"category": "Dessert",
 		"origin": "Spain",
 		"id": "11",
-		"isFavorite": true,
+		"isFavorite": false,
 		"picture": "/images/churroschocolate.jpg",
 		"description": "Churros are a traditional Spanish dessert made from fried dough that is crispy on the outside and soft on the inside. They are typically dusted with sugar and served with a rich, thick chocolate sauce for dipping. \nOften enjoyed as a breakfast or snack, churros have become popular worldwide and are a favorite at fairs and festivals. Their simplicity and deliciousness make them irresistible."
 	},
@@ -112,7 +112,7 @@
 		"category": "Main Course",
 		"origin": "India",
 		"id": "13",
-		"isFavorite": true,
+		"isFavorite": false,
 		"picture": "/images/butterchicken.jpg",
 		"description": "Butter Chicken, also known as Murgh Makhani, is one of India's most famous dishes. It features tender chicken cooked in a creamy tomato-based curry sauce infused with spices like garam masala, cumin, and turmeric. \nThis dish is often served with naan bread or basmati rice, making it a hearty and satisfying meal. Its rich flavors have made it a favorite in Indian restaurants around the world."
 	},
@@ -130,7 +130,7 @@
 		"category": "Appetizer",
 		"origin": "Thailand",
 		"id": "15",
-		"isFavorite": true,
+		"isFavorite": false,
 		"picture": "/images/tomyumsoup.jpg",
 		"description": "Tom Yum is a traditional Thai soup known for its hot and sour flavors. It is typically made with shrimp, mushrooms, lemongrass, kaffir lime leaves, galangal, and chili peppers in a flavorful broth. \nThe soup is often served as a starter and is loved for its refreshing yet spicy taste. Tom Yum showcases the balance of flavors that Thai cuisine is famous for."
 	},
@@ -148,7 +148,7 @@
 		"category": "Dessert",
 		"origin": "Turkey",
 		"id": "17",
-		"isFavorite": true,
+		"isFavorite": false,
 		"picture": "/images/baklava.jpg",
 		"description": "Baklava is a sweet pastry made of layers of filo dough filled with chopped nuts and sweetened with syrup or honey. This rich dessert is often flavored with spices like cinnamon or cardamom for added depth. \nOriginating in the Ottoman Empire, baklava has become a popular treat across the Middle East and Mediterranean regions. Its flaky texture and sweetness make it an irresistible dessert."
 	},
@@ -166,7 +166,7 @@
 		"category": "Main Course",
 		"origin": "Hungary",
 		"id": "19",
-		"isFavorite": true,
+		"isFavorite": false,
 		"picture": "/images/goulash.jpg",
 		"description": "Goulash is a hearty Hungarian stew made with tender beef, onions, paprika, and other spices. It often includes potatoes or noodles to make it even more filling. \nThis dish has been a staple in Hungarian cuisine for centuries and is loved for its rich flavors and comforting warmth. Goulash is perfect for cold weather and pairs wonderfully with crusty bread."
 	},
