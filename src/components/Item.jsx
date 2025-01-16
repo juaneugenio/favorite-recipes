@@ -1,16 +1,19 @@
 /** @format */
 import PropTypes from "prop-types";
-
+import { Link } from "react-router-dom";
 import { HiChevronRight } from "react-icons/hi";
 
 const Item = ({item}) => {
+  console.log("👉 Line-7 ▶︎▶︎", `/item/${item.name}`);
 	return (
 		<>
-			<div className="item__container">
-        <img src={item.picture} alt={item.name} />
-        <span>{item.name}</span>
-        <HiChevronRight className="icon-chevron-item"/>
-      </div>
+			<Link to={`/item/${item.id}${item.name}`}>
+				<div className="item__container">
+					<img src={item.picture} alt={item.name} />
+					<span>{item.name}</span>
+					<HiChevronRight className="icon-chevron-item" />
+				</div>
+			</Link>
 		</>
 	);
 };

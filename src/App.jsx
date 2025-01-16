@@ -1,8 +1,10 @@
 import './App.css'
 import PropTypes from "prop-types";
-import ItemList from "./components/ItemList"
 import data from "./data/recipeData.json"
 import { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ItemList from "./components/ItemList"
+import ItemDetails from './components/ItemDetails';
 
 function App() {
   const [items, setItems] = useState([]);
@@ -19,11 +21,16 @@ function App() {
   
 
   return (
-    <>
-      <h1>Favorite Recipes</h1>
-      <ItemList items={items}/>
-    </>
-  )
+		<>
+			<Router>
+				<h1>Favorite Recipes</h1>
+				<Routes>
+					<Route path="/" element={<ItemList items={items} />} />
+					<Route path="/item/:id" element={<ItemDetails items={items}/>} />
+				</Routes>
+			</Router>
+		</>
+	);
 }
 
 App.propTypes = {
