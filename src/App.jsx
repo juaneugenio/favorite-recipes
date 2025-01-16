@@ -23,7 +23,7 @@ function App() {
   return (
 		<>
 			<Router>
-				<h1>Favorite Recipes</h1>
+				
 				<Routes>
 					<Route path="/" element={<ItemList items={items} />} />
 					<Route path="/item/:id" element={<ItemDetails items={items}/>} />

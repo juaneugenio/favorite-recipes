@@ -4,10 +4,9 @@ import { Link } from "react-router-dom";
 import { HiChevronRight } from "react-icons/hi";
 
 const Item = ({item}) => {
-  console.log("👉 Line-7 ▶︎▶︎", `/item/${item.name}`);
 	return (
 		<>
-			<Link to={`/item/${item.id}${item.name}`}>
+			<Link to={`/item/${item.id}${item.name}`} className="link-item">
 				<div className="item__container">
 					<img src={item.picture} alt={item.name} />
 					<span>{item.name}</span>

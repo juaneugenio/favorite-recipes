@@ -18,6 +18,7 @@ const ItemList = ({items}) => {
   
   return (
 		<>
+			<h1>Favorite Recipes</h1>
 			<ToggleButton onToggle={handleToggle} isOn={showFavorites} />
 			{filteredList.map((item) => (
 				<Item key={item.id} item={item} />

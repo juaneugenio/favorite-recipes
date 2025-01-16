@@ -35,6 +35,12 @@
   background-color: #2c2b2b;
   /* transition: all 0.2s ease-in-out; */
 }
+.link-item{
+  color:inherit;
+}
+.link-item:hover{
+    color: rgb(255, 254, 254);
+}
 
 /* TOGGLE Button */
 .button__container{
@@ -73,6 +79,65 @@
   left: calc(100% - 27.5px);
 }
 
+/* IteamDetails */
+
+.item-details__container{
+  display: flex;
+  flex-flow: column;
+  max-width: 600px;
+  margin: 0 auto;
+  align-items: center;
+}
+.item-details__container header h1{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.item-details__container figcaption {
+  text-align: center;
+  font-size: clamp(0.5rem, 2.5vw, 0.8rem);
+  color: #7f7e7e;
+}
+.item-details__container figure {
+  margin:0
+}
+
+.item-details__container img {
+  width: 100%;
+  height: auto;
+  border-radius:0.7rem;
+}
+
+
+.item-details__container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.item-details__container button:hover {
+  background-color: #0056b3;
+}
+.item-details__subsection{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  font-size:smaller;
+  background-color: #2f2e2e;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+.item-description__section{
+  text-align:start;
+  color: rgb(214, 212, 212);
+  overflow-wrap:break-word;
+  hyphens:auto;
+}
 /* @media (prefers-reduced-motion: no-preference) {
  
 } */
