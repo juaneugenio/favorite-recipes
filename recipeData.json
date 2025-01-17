@@ -5,7 +5,7 @@
 		"origin": "Italy",
 		"id": "1",
 		"isFavorite": true,
-		"picture": "/images/spaghetticarbonara.jpg",
+		"picture": "/favorite-recipes/images/spaghetticarbonara.jpg",
 		"description": "Spaghetti Carbonara is a classic Italian pasta dish made with eggs, cheese, pancetta, and black pepper. The creamy sauce is created by combining the heat of the pasta with the egg mixture, resulting in a rich and flavorful dish. This recipe is quick to prepare and has become a staple of Italian cuisine. \nThe origins of Carbonara are believed to be in the Lazio region of Italy. It is often served with freshly grated Parmesan or Pecorino Romano cheese on top, making it a comforting and satisfying meal for any occasion."
 	},
 	{
@@ -14,7 +14,7 @@
 		"origin": "Mexico",
 		"id": "2",
 		"isFavorite": false,
-		"picture": "/images/tacospastor.jpg",
+		"picture": "/favorite-recipes/images/tacospastor.jpg",
 		"description": "Tacos al Pastor are one of Mexico's most beloved street foods. These tacos feature marinated pork cooked on a vertical spit, similar to shawarma, and are served on small corn tortillas. The marinade typically includes a blend of spices, dried chilies, and pineapple juice, which gives the meat its signature sweet and tangy flavor. \nTraditionally garnished with fresh cilantro, diced onions, and a slice of pineapple, these tacos are often accompanied by spicy salsas for an extra kick. They are a must-try for anyone exploring Mexican cuisine."
 	},
 	{
@@ -23,7 +23,7 @@
 		"origin": "Japan",
 		"id": "3",
 		"isFavorite": false,
-		"picture": "/images/californiarollmaki.jpg",
+		"picture": "/favorite-recipes/images/californiarollmaki.jpg",
 		"description": "The California Roll is a popular type of sushi that combines Japanese techniques with Western flavors. It typically includes crab meat (or imitation crab), avocado, and cucumber wrapped in seasoned rice and seaweed (nori). Sometimes it's topped with sesame seeds or tobiko (fish roe) for added texture.\nThis roll was created in the United States as an introduction to sushi for those hesitant about raw fish. Its mild flavors and appealing presentation have made it a favorite worldwide."
 	},
 	{
@@ -32,7 +32,7 @@
 		"origin": "France",
 		"id": "4",
 		"isFavorite": false,
-		"picture": "/images/croissant.jpg",
+		"picture": "/favorite-recipes/images/croissant.jpg",
 		"description": "The croissant is a buttery, flaky pastry that has become synonymous with French breakfasts. Made from layers of dough and butter, it is carefully folded and rolled to create its signature airy texture. When baked, the croissant develops a golden-brown crust that is both crisp and tender.\nAlthough now associated with France, its origins trace back to Austria's kipferl pastries. Over time, French bakers refined the recipe into the iconic croissant we know today."
 	},
 	{
@@ -41,7 +41,7 @@
 		"origin": "Thailand",
 		"id": "5",
 		"isFavorite": false,
-		"picture": "/images/padthai.jpg",
+		"picture": "/favorite-recipes/images/padthai.jpg",
 		"description": "Pad Thai is Thailand's most famous noodle dish and a favorite among food lovers worldwide. It features stir-fried rice noodles tossed with shrimp or tofu, eggs, bean sprouts, peanuts, and a tangy tamarind-based sauce. The dish strikes a perfect balance between sweet, salty, sour, and spicy flavors.\nOften served as street food in Thailand but also found in Thai restaurants globally, Pad Thai is garnished with lime wedges and crushed peanuts for added flavor."
 	},
 	{
@@ -50,7 +50,7 @@
 		"origin": "Argentina",
 		"id": "6",
 		"isFavorite": false,
-		"picture": "/images/empanadascarne.jpg",
+		"picture": "/favorite-recipes/images/empanadascarne.jpg",
 		"description": "Empanadas are savory pastries filled with various ingredients, but the beef-filled version is particularly popular in Argentina. The filling typically includes ground beef, onions, olives, hard-boiled eggs, and spices like cumin and paprika. The dough is folded over the filling to create a half-moon shape before being baked or fried.\nIn Argentina, empanadas are often enjoyed during gatherings or celebrations. Each region has its own variation of empanada fillings and cooking methods."
 	},
 	{
@@ -59,7 +59,7 @@
 		"origin": "Italy",
 		"id": "7",
 		"isFavorite": false,
-		"picture": "/images/pizzamargherita.jpg",
+		"picture": "/favorite-recipes/images/pizzamargherita.jpg",
 		"description": "\"Pizza Margherita\" is one of Italy's most iconic dishes. This simple yet delicious pizza features a thin crust topped with tomato sauce, fresh mozzarella cheese, and basil leaves—representing the colors of the Italian flag.\nLegend has it that this pizza was created in honor of Queen Margherita of Savoy in the late 19th century. Today it remains one of the most popular choices for pizza lovers around the world."
 	},
 	{
@@ -68,7 +68,7 @@
 		"origin": "Middle East",
 		"id": "8",
 		"isFavorite": false,
-		"picture": "/images/falafel.jpg",
+		"picture": "/favorite-recipes/images/falafel.jpg",
 		"description": "Falafel is a traditional Middle Eastern dish made from ground chickpeas or fava beans mixed with herbs and spices. The mixture is formed into small balls or patties and deep-fried until golden brown. Falafel is often served in pita bread with fresh vegetables and tahini sauce.\nThis dish has become a popular vegetarian option worldwide due to its rich flavor and satisfying texture. It can be enjoyed as a snack, appetizer, or main course."
 	},
 	{
@@ -77,7 +77,7 @@
 		"origin": "United States",
 		"id": "9",
 		"isFavorite": false,
-		"picture": "/images/hamburger.jpg",
+		"picture": "/favorite-recipes/images/hamburger.jpg",
 		"description": "The hamburger is an iconic American dish consisting of a ground beef patty served in a bun with various toppings such as lettuce, tomato, cheese, pickles, and sauces. It is often accompanied by fries or onion rings.\nWhile its exact origins are debated, the hamburger has become a global phenomenon and a symbol of fast food culture. Gourmet variations have also elevated it to fine dining menus."
 	},
 	{
@@ -86,7 +86,7 @@
 		"origin": "Japan",
 		"id": "10",
 		"isFavorite": false,
-		"picture": "/images/ramen.jpg",
+		"picture": "/favorite-recipes/images/ramen.jpg",
 		"description": "Ramen is a Japanese noodle soup dish that has gained immense popularity worldwide. It consists of wheat noodles served in a flavorful broth, often made with soy sauce or miso, and topped with ingredients like sliced pork, soft-boiled eggs, seaweed, and green onions. \nEach region in Japan has its own variation of ramen, making it a versatile and culturally rich dish. Whether enjoyed in a casual ramen shop or at home, it is a comforting and satisfying meal."
 	},
 	{
@@ -95,7 +95,7 @@
 		"origin": "Spain",
 		"id": "11",
 		"isFavorite": false,
-		"picture": "/images/churroschocolate.jpg",
+		"picture": "/favorite-recipes/images/churroschocolate.jpg",
 		"description": "Churros are a traditional Spanish dessert made from fried dough that is crispy on the outside and soft on the inside. They are typically dusted with sugar and served with a rich, thick chocolate sauce for dipping. \nOften enjoyed as a breakfast or snack, churros have become popular worldwide and are a favorite at fairs and festivals. Their simplicity and deliciousness make them irresistible."
 	},
 	{
@@ -104,7 +104,7 @@
 		"origin": "Peru",
 		"id": "12",
 		"isFavorite": false,
-		"picture": "/images/ceviche.jpg",
+		"picture": "/favorite-recipes/images/ceviche.jpg",
 		"description": "Ceviche is a refreshing seafood dish originating from Peru. It is made by marinating fresh fish or seafood in citrus juice (usually lime or lemon), which 'cooks' the protein through its acidity. The dish is typically flavored with onions, cilantro, chili peppers, and other seasonings.\nCeviche is often served as an appetizer and is accompanied by sides like sweet potato, corn, or plantain chips. Its bright flavors make it perfect for warm weather."
 	},
 	{
@@ -113,7 +113,7 @@
 		"origin": "India",
 		"id": "13",
 		"isFavorite": false,
-		"picture": "/images/butterchicken.jpg",
+		"picture": "/favorite-recipes/images/butterchicken.jpg",
 		"description": "Butter Chicken, also known as Murgh Makhani, is one of India's most famous dishes. It features tender chicken cooked in a creamy tomato-based curry sauce infused with spices like garam masala, cumin, and turmeric. \nThis dish is often served with naan bread or basmati rice, making it a hearty and satisfying meal. Its rich flavors have made it a favorite in Indian restaurants around the world."
 	},
 	{
@@ -122,7 +122,7 @@
 		"origin": "Canada",
 		"id": "14",
 		"isFavorite": false,
-		"picture": "/images/poutine.jpg",
+		"picture": "/favorite-recipes/images/poutine.jpg",
 		"description": "Poutine is a beloved Canadian dish consisting of French fries topped with cheese curds and smothered in hot gravy. The combination of crispy fries, melty cheese, and savory gravy creates a comforting and indulgent snack.\nOriginating in Quebec, poutine has become a symbol of Canadian cuisine and is now enjoyed in various forms across the country and beyond."
 	},
 	{
@@ -131,7 +131,7 @@
 		"origin": "Thailand",
 		"id": "15",
 		"isFavorite": false,
-		"picture": "/images/tomyumsoup.jpg",
+		"picture": "/favorite-recipes/images/tomyumsoup.jpg",
 		"description": "Tom Yum is a traditional Thai soup known for its hot and sour flavors. It is typically made with shrimp, mushrooms, lemongrass, kaffir lime leaves, galangal, and chili peppers in a flavorful broth. \nThe soup is often served as a starter and is loved for its refreshing yet spicy taste. Tom Yum showcases the balance of flavors that Thai cuisine is famous for."
 	},
 	{
@@ -140,7 +140,7 @@
 		"origin": "Spain",
 		"id": "16",
 		"isFavorite": false,
-		"picture": "/images/paella.jpg",
+		"picture": "/favorite-recipes/images/paella.jpg",
 		"description": "Paella is a traditional Spanish rice dish that originated in Valencia. It is made with saffron-infused rice, vegetables, and a variety of proteins such as chicken, rabbit, or seafood like shrimp and mussels. \nCooked in a wide, shallow pan over an open flame, paella is often enjoyed during celebrations and gatherings. Its vibrant colors and rich flavors make it a centerpiece of Spanish cuisine."
 	},
 	{
@@ -149,7 +149,7 @@
 		"origin": "Turkey",
 		"id": "17",
 		"isFavorite": false,
-		"picture": "/images/baklava.jpg",
+		"picture": "/favorite-recipes/images/baklava.jpg",
 		"description": "Baklava is a sweet pastry made of layers of filo dough filled with chopped nuts and sweetened with syrup or honey. This rich dessert is often flavored with spices like cinnamon or cardamom for added depth. \nOriginating in the Ottoman Empire, baklava has become a popular treat across the Middle East and Mediterranean regions. Its flaky texture and sweetness make it an irresistible dessert."
 	},
 	{
@@ -158,7 +158,7 @@
 		"origin": "Vietnam",
 		"id": "18",
 		"isFavorite": false,
-		"picture": "/images/pho.jpg",
+		"picture": "/favorite-recipes/images/pho.jpg",
 		"description": "Pho is a traditional Vietnamese noodle soup made with beef or chicken, rice noodles, and aromatic herbs in a savory broth. The broth is simmered for hours with spices like star anise, cinnamon, and cloves to create its signature depth of flavor. \nOften served with fresh lime wedges, bean sprouts, and chili slices on the side, pho is both comforting and customizable to individual tastes."
 	},
 	{
@@ -167,7 +167,7 @@
 		"origin": "Hungary",
 		"id": "19",
 		"isFavorite": false,
-		"picture": "/images/goulash.jpg",
+		"picture": "/favorite-recipes/images/goulash.jpg",
 		"description": "Goulash is a hearty Hungarian stew made with tender beef, onions, paprika, and other spices. It often includes potatoes or noodles to make it even more filling. \nThis dish has been a staple in Hungarian cuisine for centuries and is loved for its rich flavors and comforting warmth. Goulash is perfect for cold weather and pairs wonderfully with crusty bread."
 	},
 	{
@@ -176,7 +176,7 @@
 		"origin": "United States",
 		"id": "20",
 		"isFavorite": false,
-		"picture": "/images/applepie.jpg",
+		"picture": "/favorite-recipes/images/applepie.jpg",
 		"description": "\"Apple Pie\" is a classic American dessert made with a flaky pastry crust filled with sweetened apples spiced with cinnamon and nutmeg. The pie is baked until golden brown and often served warm with vanilla ice cream or whipped cream.\nAlthough its origins trace back to Europe, apple pie has become synonymous with American culture and traditions. Its comforting flavors make it a favorite at family gatherings and holidays."
 	}
 ]
