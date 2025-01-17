@@ -11,6 +11,9 @@
 main{
   flex: 1;
 }
+header{
+  margin: 2rem 0
+}
 h1{
   line-height: 1rem;
   text-align: center;
@@ -103,7 +106,7 @@ h1{
   display: flex;
   flex-flow: column;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 1rem auto;
   align-items: center;
   background-color: #302f2f;
   border-radius: 0.7rem;
@@ -111,7 +114,8 @@ h1{
 }
 .item-details__container header h1{
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 1rem 0;
+  font-size: 1.9rem;
 }
 
 .item-details__container figcaption {
