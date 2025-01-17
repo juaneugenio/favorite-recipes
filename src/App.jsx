@@ -1,8 +1,8 @@
 import './App.css'
 import PropTypes from "prop-types";
-import data from "./data/recipeData.json"
+import data from "../public/recipeData.json"
 import { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import ItemList from "./components/ItemList"
 import ItemDetails from './components/ItemDetails';
 import Error from './components/Error';
