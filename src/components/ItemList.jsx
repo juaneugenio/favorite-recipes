@@ -1,43 +1,48 @@
+/** @format */
+
 import { useState } from "react";
 import PropTypes from "prop-types";
-import Item from "./Item"
+import Item from "./Item";
 import ToggleButton from "./ToggleButton";
 import Error from "./Error";
+import Footer from "./Footer";
 
+const ItemList = ({ items, isLoading }) => {
+	const [showFavorites, setShowFavorites] = useState(false);
 
+	const handleToggle = () => {
+		setShowFavorites(!showFavorites);
+	};
 
-const ItemList = ({items, isLoading}) => {
-  const [showFavorites, setShowFavorites] = useState(false)
+	const filteredList = showFavorites ? items.filter((item) => item.isFavorite) : items;
+	// console.log("👉 items:", items);
+	// console.log("👉 showFavorites:", showFavorites);
+	// console.log("👉 filteredList:", filteredList);
 
-
-  const handleToggle= (  ) => {
-     setShowFavorites(!showFavorites)
-  }
-
-  const filteredList = showFavorites ? items.filter(item => item.isFavorite): items;
-// console.log("👉 items:", items);
-// console.log("👉 showFavorites:", showFavorites);
-// console.log("👉 filteredList:", filteredList);
-
- if (isLoading) {
+	if (isLoading) {
 		return <p className="is-loading">Loading...</p>;
- }
+	}
 
-if (filteredList.length === 0) {
-	console.log("👉 Line-24 ▶︎▶︎", "No items found in the filtered list");
-	return <Error errorMessage="No items found" />;
-}
-  
-  return (
+	if (filteredList.length === 0) {
+		console.log("👉 Line-24 ▶︎▶︎", "No items found in the filtered list");
+		return <Error errorMessage="No items found" />;
+	}
+
+	return (
 		<>
-			<h1>Favorite Recipes</h1>
-			<ToggleButton onToggle={handleToggle} isOn={showFavorites} />
-			{filteredList.map((item) => (
-				<Item key={item.id} item={item} />
-			))}
+			<header>
+				<h1>Favorite Recipes</h1>
+			</header>
+			<main>
+				<ToggleButton onToggle={handleToggle} isOn={showFavorites} />
+				{filteredList.map((item) => (
+					<Item key={item.id} item={item} />
+				))}
+			</main>
+			<Footer />
 		</>
 	);
-}
+};
 ItemList.propTypes = {
 	items: PropTypes.arrayOf(
 		PropTypes.shape({
@@ -50,4 +55,4 @@ ItemList.propTypes = {
 	).isRequired,
 	isLoading: PropTypes.bool.isRequired,
 };
-export default ItemList
+export default ItemList;

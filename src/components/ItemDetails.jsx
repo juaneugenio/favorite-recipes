@@ -2,7 +2,8 @@
 
 import PropTypes from "prop-types";
 import { useParams } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { FaStar } from "react-icons/fa";
 import Error from "./Error";
 
 const ItemDetails = ({ items, updateFavoriteStatus }) => {
@@ -10,7 +11,13 @@ const ItemDetails = ({ items, updateFavoriteStatus }) => {
 	const { id } = useParams();
 	const recipe = items.find((recipe) => `${recipe.id}${recipe.name}` === id);
 
-	const [isFavorite, setIsFavorite] = useState(recipe.isFavorite);
+	const [isFavorite, setIsFavorite] = useState(false);
+
+	useEffect(() => {
+		if (recipe) {
+			setIsFavorite(recipe.isFavorite);
+		}
+	}, [recipe]);
 
 	if (!recipe) {
 		return <Error errorMessage="Recipe not found" />;
@@ -42,7 +49,9 @@ const ItemDetails = ({ items, updateFavoriteStatus }) => {
 				<p>
 					<strong>Origin:</strong> {recipe.origin}
 				</p>
-				<button onClick={handleFavoriteToggle}>{isFavorite ? "★" : "Mark as Favorite"}</button>
+				<a onClick={handleFavoriteToggle} id="favorite-icon">
+					<FaStar className={isFavorite ? "favorite" : "not-favorite"} />
+				</a>
 			</section>
 			<section className="item-description__section">
 				<h3>Description</h3>
